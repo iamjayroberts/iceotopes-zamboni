@@ -1,8 +1,8 @@
 # 🏒 Iceotopes Zamboni
 
-Portrait-mode arcade mini-game. Coach Al noticed you haven't paid your league fees this month — so guess who's flooding the ice tonight?
+Portrait-mode arcade mini-game. Schultz noticed you wen to Tony's before the game — so guess who's flooding the ice tonight?
 
-Pick your player from the Top Corns roster, then tap as fast as you can to spiral the zamboni from the outer boards in to center ice. **Fastest resurface wins.**
+Pick your player from the Topes roster, then tap as fast as you can to spiral the zamboni from the outer boards in to center ice. **Fastest resurface wins.**
 
 ## Project structure
 
@@ -31,8 +31,8 @@ For GitHub Pages, push the whole folder to a repo and enable Pages — it works 
 ## Flow
 
 1. **Title screen** — Top Corns jersey, "tap to start"
-2. **Coach Al** — tells you to flood the ice because you didn't pay your fees
-3. **Select your player** — Johnston, Quirico, Spradling, King, or Soyk
+2. **Schultz** — tells you to flood the ice because you went to Tony's
+3. **Select your player** — Schultz, Babb, Huber, Rojewski, Brad
 4. **Countdown** — ready, set, go
 5. **Game** — top-down rink, tap rapidly to drive the zamboni in a spiral from outer edge to center
 6. **Results** — your time, best time, leaderboard
