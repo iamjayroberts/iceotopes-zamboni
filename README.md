@@ -1,6 +1,6 @@
 # 🏒 Iceotopes Zamboni
 
-Portrait-mode arcade mini-game. Schultz noticed you wen to Tony's before the game — so guess who's flooding the ice tonight?
+Portrait-mode arcade mini-game. Schultz noticed you went to Tony's before the game — so guess who's flooding the ice tonight?
 
 Pick your player from the Topes roster, then tap as fast as you can to spiral the zamboni from the outer boards in to center ice. **Fastest resurface wins.**
 
@@ -30,7 +30,7 @@ For GitHub Pages, push the whole folder to a repo and enable Pages — it works 
 
 ## Flow
 
-1. **Title screen** — Top Corns jersey, "tap to start"
+1. **Title screen** — Topes jersey, "tap to start"
 2. **Schultz** — tells you to flood the ice because you went to Tony's
 3. **Select your player** — Schultz, Babb, Huber, Rojewski, Brad
 4. **Countdown** — ready, set, go
@@ -47,12 +47,12 @@ For GitHub Pages, push the whole folder to a repo and enable Pages — it works 
 
 ## Roster
 
-| #  | Player    |
-|----|-----------|
-| 19 | Johnston  |
-| 8  | Quirico   |
-| 52 | Spradling |
-| 98 | King      |
-| 91 | Soyk      |
+| #  | Player      |
+|----|-------------|
+| 81 | Schultz     |
+| 13 | Huber       |
+| 77 | Babb        |
+| 17 | Rojewski    |
+| 33 | 2Lucky.Lefty|
 
 Best times are saved per player in browser localStorage. Top 5 show up on the leaderboard after every run.
