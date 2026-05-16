@@ -167,10 +167,10 @@ let selectedIdx = 1;
 let chosenPlayer = null;
 
 const coachLines = [
-  "WELCOME BACK, ROOKIE.",
-  "QUICK QUESTION...",
-  "DID YOU PAY YOUR LEAGUE FEES THIS MONTH?",
-  "...NO?",
+  "GYUS, I KNOW THE WARDIQUES STACKED WITH THEIR TRAVEL TEAM...",
+  "BUT 8-2 IS NOT WHAT I NEED AT 10:45 ON A TUESDAY NIGHT.",
+  "DID YOU GO TO TONY'S BEFORE THE GAME?",
+  "...YES?",
   "YEAH, I FIGURED.",
   "GRAB THE KEYS TO THE ZAMBONI.",
   "YOU'RE FLOODING THE ICE TONIGHT.",
@@ -252,17 +252,17 @@ function drawIntroScene(t) {
   ctx.save();
   ctx.translate(W/2, 110);
   ctx.scale(pulse, pulse);
-  pixelTextCenter("★  COLORADO SPRINGS WORLD ARENA  ★", 0, -34, 9, '#f6efd6');
+  pixelTextCenter("★  ED ROBSON ARENA  ★", 0, -34, 9, '#f6efd6');
   // Stacked color layers for that classic title look
   ctx.font = `38px "Press Start 2P", monospace`;
   ctx.textAlign = 'center';
   ctx.textBaseline = 'top';
-  ctx.fillStyle = '#5a0a0d';
-  ctx.fillText("TOP CORNS", 5, 5);
-  ctx.fillStyle = '#f5c842';
-  ctx.fillText("TOP CORNS", 2, 2);
-  ctx.fillStyle = '#d6262b';
-  ctx.fillText("TOP CORNS", 0, 0);
+  ctx.fillStyle = '#4d046d';
+  ctx.fillText("ICOTOPES", 5, 5);
+  ctx.fillStyle = '#fcb900';
+  ctx.fillText("ICOTOPES", 2, 2);
+  ctx.fillStyle = '#FFFFF';
+  ctx.fillText("ICOTOPES", 0, 0);
   ctx.restore();
 
   pixelTextCenter("ZAMBONI", W/2, 178, 26, '#f6efd6');
@@ -311,7 +311,7 @@ function drawCoachScene() {
   ctx.fillRect(0, 0, W, 2);
   ctx.fillStyle = '#0a1430';
   ctx.fillRect(0, headerH - 2, W, 2);
-  pixelTextCenter("TOP CORNS HOCKEY CLUB", W/2, 14, 14, '#f5c842');
+  pixelTextCenter("ICOTOPES HOCKEY CLUB", W/2, 14, 14, '#f5c842');
 
   drawDialogueBox(coachLines[coachLineIdx], coachCharIdx);
 
